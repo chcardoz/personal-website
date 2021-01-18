@@ -1,8 +1,10 @@
 module.exports = {
   siteMetadata: {
     title: "Chris Cardoza",
+    description: "Personal website of Chris Cardoza",
   },
   plugins: [
+    "@chakra-ui/gatsby-plugin",
     "gatsby-plugin-sharp",
     "gatsby-plugin-react-helmet",
     {
