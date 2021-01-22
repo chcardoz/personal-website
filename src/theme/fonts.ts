@@ -1,5 +1,7 @@
 const fonts = {
-  mono: `monospace`,
+  body: "system-ui, sans-serif",
+  heading: "Georgia, serif",
+  mono: "Menlo, monospace",
 };
 
 export default fonts;
