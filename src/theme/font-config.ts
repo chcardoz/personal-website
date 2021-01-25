@@ -1,6 +1,6 @@
 const fonts = {
-  body: "system-ui, sans-serif",
-  heading: "Georgia, serif",
+  body: "Merriweather, sans-serif",
+  heading: "Merriweather, serif",
   mono: "Menlo, monospace",
 };
 
