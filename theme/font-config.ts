@@ -1,6 +1,6 @@
 const fonts = {
   body: "Merriweather, sans-serif",
-  heading: "Merriweather, serif",
+  heading: "Rubik Mono One, serif",
   mono: "Menlo, monospace",
 };
 

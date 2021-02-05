@@ -1,5 +1,5 @@
 import React from "react";
-import theme from "./src/theme";
+import theme from "./theme";
 import { ColorModeScript } from "@chakra-ui/react";
 
 export const onRenderBody = ({ setPreBodyComponents }) => {
