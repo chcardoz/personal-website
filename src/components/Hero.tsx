@@ -6,6 +6,7 @@ import {
   Button,
   useColorMode,
   Text,
+  Center,
 } from "@chakra-ui/react";
 import { graphql, useStaticQuery } from "gatsby";
 import React from "react";
@@ -63,7 +64,7 @@ export const Hero: React.FC<HeroProps> = ({}) => {
         )}
       </Box>
       <Flex
-        maxW="40%"
+        maxW={{ base: "85%", md: "40%", xl: "30%" }}
         mt={{ base: 5, md: 0 }}
         direction="column"
         alignItems="center"
@@ -76,8 +77,7 @@ export const Hero: React.FC<HeroProps> = ({}) => {
         </Box>
         <Heading fontSize={responsiveFontSize}>CHRIS</Heading>
         <Heading fontSize={responsiveFontSize}>CARDOZA</Heading>
-
-        <Text mt="2rem">
+        <Text mt="2rem" textAlign="center">
           Hello there! Looks like you found my personal website. You can click
           the links above to go to read my thoughts, look at my projects and
           read a little bit more about me
