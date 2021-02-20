@@ -17,7 +17,7 @@ interface HeroProps {}
 export const Hero: React.FC<HeroProps> = ({}) => {
   const { colorMode, toggleColorMode } = useColorMode();
   const data = useStaticQuery(graphql`
-    query MyQuery {
+    query PhotoQuery {
       lightmode: file(relativePath: { eq: "lightmode.jpeg" }) {
         id
         childImageSharp {
